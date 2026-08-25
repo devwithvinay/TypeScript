@@ -1,5 +1,5 @@
 
-function Greet(name:string){
+function Greet(name: string){
     console.log("hello" , name)
 }
 
@@ -13,7 +13,7 @@ function Add(a:number , b:number){
 let ans = Add(4,5)
 console.log(ans)
 
-function DelayedCall(fn:()=>void){
+function DelayedCall(fn: ()=> void){
     setTimeout(fn,1000)
 }
 
@@ -23,7 +23,7 @@ DelayedCall(function(){
 
 //or
 
-function delay(anotherFn:()=>number){
+function delay(anotherFn: ()=> number){
     setTimeout(anotherFn , 1000)
 }
 
@@ -37,11 +37,11 @@ console.log(value)
 
 // or
 
-function Delaying(fn:(a:string)=>void){
+function Delaying(fn: (a: string)=> void){
     setTimeout(fn,1000)
 }
 
-function greet(name:string){
+function greet(name: string){
     console.log('hello'+name);
 }
 
