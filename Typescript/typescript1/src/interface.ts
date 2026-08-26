@@ -25,3 +25,6 @@ function isLegal(user:UserType){
     }
 
 }   
+
+let value = (isLegal(user))
+console.log(value)

@@ -5,10 +5,10 @@ function greet( user: {
   console.log("hello" + user.name);
 }
 
-greet({
+greet( {
   name: "Vinay",
   age: 23,
-});
+ } );
 
 //or
 

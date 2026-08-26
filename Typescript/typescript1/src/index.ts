@@ -31,9 +31,8 @@ function log(){
     return 1;
 }
 
-let value = delay(log)
+ delay(log)
 
-console.log(value)
 
 // or
 
