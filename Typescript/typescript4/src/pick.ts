@@ -17,7 +17,7 @@ type updateProps={
 */
 
 
-type updateProps = Pick<User,"name"| "age" |"password">
+type updateProps = Pick<User,"name"| "age" |"password" >
 
 function updateUser(updateProps:updateProps){
     // hit the database and update the user data 
